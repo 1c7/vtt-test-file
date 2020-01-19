@@ -45,7 +45,7 @@ node test-node-webvtt.js
 ```
 
 ## Side note
-if you are using youtube-dl, For example:
+If you are using youtube-dl, for example:
 
 ```bash
 youtube-dl https://www.youtube.com/watch?v=T7Rv4tGRlfc --skip-download --sub-format vtt --write-sub
@@ -73,7 +73,8 @@ Language: en
 ```
 
 This `Kind:` and `Language:`   
-Doesn't seem like following WebVTT standard  
+Is not in the WebVTT standard     
+(I am pretty sure about that, but if I am wrong, let me know)   
 I ask about that on [youtube-dl Issue](https://github.com/ytdl-org/youtube-dl/issues/23777) 
 
 Clearly it's from Youtube.   
