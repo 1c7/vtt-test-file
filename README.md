@@ -28,7 +28,7 @@ I create/collected these.
 
 I open-source it so everyone can save time.
 
-### [node-webvtt](https://www.npmjs.com/package/node-webvtt)   
+## [node-webvtt](https://www.npmjs.com/package/node-webvtt)   
 I did a quick test on this package,   
 You can run test with  
 ```
@@ -38,3 +38,48 @@ npm install
 
 node test-node-webvtt.js
 ```
+
+## Side note
+if you are using youtube-dl, For example:
+
+```bash
+youtube-dl https://www.youtube.com/watch?v=T7Rv4tGRlfc --skip-download --sub-format vtt --write-sub
+```
+
+You would get a vtt file   
+`The Future of Artificial Intelligence - Crash Course AI #20-T7Rv4tGRlfc.en.vtt`
+
+Which contain these text
+
+```
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:05.410
+Hey everyone, I’m Jabril and welcome to
+the final episode of Crash Course AI.
+```
+
+Let's focus on this part  
+```
+Kind: captions
+Language: en
+```
+
+This `Kind:` and `Language:`   
+Doesn't seem like following WebVTT standard  
+I ask about that on [youtube-dl Issue](https://github.com/ytdl-org/youtube-dl/issues/23777) 
+
+Clearly it's from Youtube.   
+Youtube is not following WebVTT standard   
+
+### Conclusion: 
+
+Just delete these manually
+```
+Kind: captions
+Language: en
+```
+
+or ignore them in your program   
