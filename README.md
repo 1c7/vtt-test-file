@@ -1,6 +1,7 @@
 # VTT Test File
-Here is a bunch of `.vtt` file.        
-All of them follow this specification:         
+Here is a bunch of `.vtt` file in the [vtt files/](https://github.com/1c7/vtt-test-file/tree/master/vtt%20files) folder     
+
+All of `.vtt` file follow this specification:         
 [WebVTT: The Web Video Text Tracks Format](https://www.w3.org/TR/webvtt1/)
 
 ![Spec Screenshot](./img/spec.jpg)
@@ -27,8 +28,9 @@ I create/collected these.
 
 I open-source it so everyone can save time.
 
-## I also did a quick test on [node-webvtt](https://www.npmjs.com/package/node-webvtt)
-You can run the test with  
+### [node-webvtt](https://www.npmjs.com/package/node-webvtt)   
+I did a quick test on this package,   
+You can run test with  
 ```
 node test-node-webvtt.js
 ```
