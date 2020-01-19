@@ -26,3 +26,9 @@ To make sure my program works with all kind of `.vtt` file.
 I create/collected these. 
 
 I open-source it so everyone can save time.
+
+## I also did a quick test on [node-webvtt](https://www.npmjs.com/package/node-webvtt)
+You can run the test with  
+```
+node test-node-webvtt.js
+```
