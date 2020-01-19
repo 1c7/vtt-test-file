@@ -28,8 +28,8 @@ I create/collected these.
 
 I open-source it so everyone can save time.
 
-## [node-webvtt](https://www.npmjs.com/package/node-webvtt)   
-I did a quick test on this package,   
+## Package: node-webvtt 
+I did a quick test on npm package: [node-webvtt](https://www.npmjs.com/package/node-webvtt)    
 You can run test with  
 ```
 git clone https://github.com/1c7/vtt-test-file.git
@@ -74,7 +74,7 @@ I ask about that on [youtube-dl Issue](https://github.com/ytdl-org/youtube-dl/is
 Clearly it's from Youtube.   
 Youtube is not following WebVTT standard   
 
-### Conclusion: 
+### Side note conclusion: 
 
 Just delete these manually
 ```
