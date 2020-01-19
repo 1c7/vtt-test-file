@@ -32,5 +32,9 @@ I open-source it so everyone can save time.
 I did a quick test on this package,   
 You can run test with  
 ```
+git clone https://github.com/1c7/vtt-test-file.git
+cd vtt-test-file/
+npm install
+
 node test-node-webvtt.js
 ```
