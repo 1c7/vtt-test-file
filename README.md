@@ -10,11 +10,16 @@ All of `.vtt` file follow this specification:
 Testing
 
 ## Who can benefit from this?
-* Developer.
+* Developer
 * Developer who needs to write a program to deal with `.vtt` file.
 
 ## What kind of benefit?
 Save time
+
+## How to use this?
+If you are writing a program that parse `.vtt` file.   
+and you want to test if the program can handle all kind of variation of vtt file.     
+Just grab vtt file from the [vtt files/](https://github.com/1c7/vtt-test-file/tree/master/vtt%20files) folder and use them for testing.  
 
 ## Why I created this
 I built a Desktop app called [Tern - Subtitle File Translator](http://tern.1c7.me/)     
