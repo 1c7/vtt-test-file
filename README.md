@@ -8,6 +8,12 @@ All of them follow this specification:
 ## Purpose
 Testing
 
+## Who can benefit from this?
+* Developer.
+* Developer who needs to write a program to deal with `.vtt` file.
+
+## What kind of benefit?
+Save time
 
 ## Why I created this
 I built a Desktop app called [Tern - Subtitle File Translator](http://tern.1c7.me/)  
